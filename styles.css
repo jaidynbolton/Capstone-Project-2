@@ -1,0 +1,93 @@
+.top-container{
+background-color: rgb(160, 136, 116);
+}
+.background-mountain{
+display:flex;
+align-items: center;
+justify-content: space-around;
+opacity: 0.7;
+}
+.title-text {
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.middle-container{
+    display: block;
+    unicode-bidi: isolate;
+}
+.profile-picture{
+margin:50px;
+border-radius: 50%;
+height:200px;
+width: 200px;
+}
+h2{
+    color:rgb(90, 60, 32);
+}
+hr{
+   margin-bottom: 100px;
+}
+.computer{
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 150px;
+    column-gap: 100px;
+}
+.skill-one{
+display: grid;
+align-items: center;
+grid-column: 2;
+grid-row:1;
+}
+.skill-two{
+    display:grid;
+    align-items: center;
+    grid-column:2;
+    grid-row:2;
+}
+.comp{
+    display:grid;
+    align-items: center;
+}
+.cat{
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 2;
+}
+.meow{
+    margin-top: 150px;
+}
+.contact-message{
+        width: 40%;
+        margin: 40px auto 60px;
+}
+p{
+   line-height: 2;
+}
+.get{
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: rgb(160, 136, 116);
+}
+.hello{
+margin-bottom: 50px;
+}
