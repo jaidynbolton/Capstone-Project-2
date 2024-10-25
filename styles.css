@@ -8,7 +8,7 @@ justify-content: space-around;
 opacity: 0.7;
 }
 .title-text {
-    position:relative;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
